@@ -1,6 +1,6 @@
 {
-  "name": "@xzdarcy/react-timeline-editor",
-  "version": "0.1.9",
+  "name": "@agmedia/react-timeline-editor",
+  "version": "0.2.0",
   "author": "xzdarcy",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,7 @@
     "docs:build": "dumi build",
     "docs:deploy": "",
     "build": "father-build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "prepublishOnly": "npm run build"
+    "deploy": "npm run docs:build && npm run docs:deploy"
   },
   "files": [
     "dist"
